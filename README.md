@@ -301,44 +301,85 @@ sudo userdel -r alumno1
 
 alex@alex:~$ history
     1  2025-09-25 09:15:44 export HISTSIZE=10000      #Cantidad de comandos
+	
     2  2025-09-25 09:15:44 export HISTFILESIZE=20000  #Tamaño del fichero de alamcenamiento
+	
     3  2025-09-25 09:15:44 export HISTTIMEFORMAT="%F %T "
+	
     4  2025-09-25 09:15:51 history
+
     5  2025-09-25 09:16:01 nano ~/.bashsrc
+	
     6  2025-09-25 09:16:52 du -h /etc
+	
     7  2025-09-25 09:16:59 free -h
+	
     8  2025-09-25 09:17:06 ps aux
+	
     9  2025-09-25 09:17:34 ps -lax
+	
    10  2025-09-25 09:17:40 pstree
+   
    11  2025-09-25 09:17:48 ping  google.com
+   
    12  2025-09-25 09:17:58 pgrep firefox
+   
    13  2025-09-25 09:18:04 kill -9 <PID>
+   
    14  2025-09-25 09:18:16 pgrep firefox
+   
    15  2025-09-25 09:18:16 kill -9 <PID>
+   
    16  2025-09-25 09:18:23 kill -STOP <PID>
+   
    17  2025-09-25 09:18:29 kill -CONT <PID>
+   
    18  2025-09-25 09:18:36 systemctl status ssh
+   
    19  2025-09-25 09:18:44 sudo systemctl start ssh
+   
    20  2025-09-25 09:18:53 sudo systemctl status ssh
+   
    21  2025-09-25 09:19:06 sudo systemctl enable ssh
+   
    22  2025-09-25 09:19:16 ls -la ~
+   
    23  2025-09-25 09:19:22 mkdir -p ~/prueba
+   
    24  2025-09-25 09:19:29 echo "Hola Linux" > ~/prueba/notas.txt
+   
    25  2025-09-25 09:19:37 cp ~/prueba/notas.txt ~/prueba/notas_copia.txt
+   
    26  2025-09-25 09:19:45 mv ~/prueba/notas_copia.txt ~/prueba/notas_renombrado.txt
+   
    27  2025-09-25 09:19:56 rm ~/prueba/notas_renombrado.txt
+   
    28  2025-09-25 09:20:04 ls -la > listado.txt
+   
    29  2025-09-25 09:20:11 echo "Fin del listado" >> listado.txt
+   
    30  2025-09-25 09:20:17 ps aux | grep bash | grep -v grep
+   
    31  2025-09-25 09:20:23 tail -n 5 listado.txt
+   
    32  2025-09-25 09:20:29 ip a
+   
    33  2025-09-25 09:20:35 ss -tuln
+   
    34  2025-09-25 09:20:41 dig +short google.com
+   
    35  2025-09-25 09:20:46 host google.com
+   
    36  2025-09-25 09:20:52 ssh usuario@host_remoto
+   
    37  2025-09-25 09:20:58 sudo useradd -m alumno1
+   
    38  2025-09-25 09:21:05 sudo passwd alumno1
+   
    39  2025-09-25 09:21:14 chmod 755 archivo.sh
+   
    40  2025-09-25 09:21:23 sudo chown otro_usuario:otro_usuario archivo.sh
+   
    41  2025-09-25 09:21:30 sudo userdel -r alumno1
+   
    42  2025-09-25 09:21:39 history
